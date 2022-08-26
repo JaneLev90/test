@@ -1,0 +1,209 @@
+:root {
+  --color-primary: #212121;
+  --color-second: #757575;
+  --color-active: #2196f3;
+  --color-background: #f5f4fa;
+  --color-fone: #fff;
+  --color-logo: #000;
+  --color-backdark: #2f303a;
+  --color-hero: #188ce8;
+}
+.page {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-fone);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*header*/
+.nav {
+  background-color: var(--color-fone);
+}
+nav .current {
+  color: var(--color-active);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-logo);
+}
+.page-logo {
+  color: var(--color-active);
+}
+.nav-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.nav-page:hover {
+  color: var(--color-active);
+}
+.nav-page:focus {
+  color: var(--color-active);
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--color-second);
+  cursor: pointer;
+}
+.contacts:hover {
+  color: var(--color-active);
+}
+.contacts:focus {
+  color: var(--color-active);
+}
+
+/*hero*/
+.hero {
+  background-color: var(--color-backdark);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: var(--color-fone);
+}
+.hero-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-fone);
+  background-color: var(--color-active);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: var(--color-hero);
+}
+.hero-button:focus {
+  background-color: var(--color-hero);
+}
+/*Секція 2*/
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-second);
+}
+
+/*title section*/
+.titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+/*Секція Команда*/
+.list-profy {
+  background-color: var(--color-background);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: var(--color-primary);
+}
+.profy {
+  line-height: 19px;
+  text-align: center;
+  color: var(--color-second);
+}
+/*list button*/
+.works-button {
+  background-color: var(--color-background);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.works-button:hover {
+  color: var(--color-fone);
+  background-color: var(--color-active);
+}
+.works-button:focus {
+  color: var(--color-fone);
+  background-color: var(--color-active);
+}
+/*Секція Приклади робіт*/
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--color-primary);
+}
+.works-link {
+  line-height: 1.9;
+  color: var(--color-second);
+}
+
+/*footer*/
+.bottom {
+  background-color: var(--color-backdark);
+}
+.logo-bottom {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-fone);
+  cursor: pointer;
+}
+.logo-web {
+  color: var(--color-active);
+}
+.bottom-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-fone);
+  cursor: pointer;
+}
+.bottom-address:hover {
+  color: var(--color-active);
+}
+.bottom-address:focus {
+  color: var(--color-active);
+}
+.bottom-contacts {
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.bottom-contacts:hover {
+  color: var(--color-active);
+}
+.bottom-contacts:focus {
+  color: var(--color-active);
+}
